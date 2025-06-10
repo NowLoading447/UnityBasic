@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//using System.Diagnostics;
+//이건 왜 자꾸 생성되는거야
 
 public class practice04 : MonoBehaviour
 {
@@ -56,7 +58,7 @@ public class practice04 : MonoBehaviour
     public void Phase3()
     {
         star = string.Empty;
-        int height = 9;
+        int height = 5;
 
         for (int i = 1; i <= height; i++)
         {
@@ -82,7 +84,7 @@ public class practice04 : MonoBehaviour
     public void Phase4()
     {
         star = string.Empty;
-        int height = 9;
+        int height = 5;
 
         for (int i = 1; i <= height; i++)
         {
@@ -116,7 +118,7 @@ public class practice04 : MonoBehaviour
     public void Phase5()
     {
         star = string.Empty;
-        int height = 9;
+        int height = 5;
 
         for (int i = 1; i <= height; i++)
         {
